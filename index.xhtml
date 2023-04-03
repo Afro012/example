@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>Welcome Page</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        
+        <p>
+            Welcome to ABC, your engineering company of choice. Please enter your name below to start.
+        </p>
+        <form action="StartSessionServlet.do" method="POST">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr> 
+                    <td> </td>
+                    <td><input type="submit" value="SUBMIT" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
